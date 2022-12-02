@@ -9,11 +9,22 @@
 </head>
 <body>
     <h1>Manipulacion del Dom Basica</h1>
-    <p>Primer parrafo</p>
-    <p class="parrafinio">Segundo parrafo</p>
-    <p id="pid">Tercer parrafo</p>
+    
+    <input type="text" id="npt_calculo1" placeholder="Escribe algo aqui" onchange="console.log('cambio algo')">
+    <!-- 
+        placeholder lo que esta escrito predeterminadamente
+        onchange lo que sucede cuando cambia el contenido (estrictamente cuando cambia y pierde el foco)
+     -->
 
-    <input placeholder="Escribe algo aqui" value="123"/>
+    <input type="text" id="npt_calculo2" placeholder="Escribe algo aqui">
+    <!-- 
+
+     -->
+
+    <button id="btn_calcular" onclick="console.log(sumar())">Sumar!</button>
+    <!-- 
+        oneclick lo que sucede al hacer click en el elemento
+     -->
 
     <script src="./script.js"></script>
 </body> 
